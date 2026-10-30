@@ -22,3 +22,11 @@ The model is a superconducting-like lattice with correlated pair hopping. Kineti
 ## Running it
 
 The notebook was written in Google Colab with Python 3. Outside Colab, install the dependencies with
+
+    pip install numpy scipy matplotlib networkx
+
+Then run the cells in order, since later cells use functions and cached Hamiltonians built by earlier ones.
+
+## Author
+
+All the code here was written by me, Adhrit Das, as independent research for this paper.
